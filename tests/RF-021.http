@@ -1,0 +1,922 @@
+@BASE = http://127.0.0.1:8080/api/v1
+
+###############################################
+
+POST {{BASE}}/groups
+Content-Type: application/json
+
+{
+    "n": "Grupo de prueba",
+    "a": "Teoria",
+    "y": 2018,
+    "s": 1,
+    "c": 3
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000000",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "0@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000001",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "1@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000002",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "2@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000003",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "3@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000004",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "4@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000005",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "5@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000006",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "6@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000007",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "7@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000008",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "8@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000009",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "9@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+{
+    "a": "Selectividad",
+    "d": "000000010",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "10@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000011",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "11@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000012",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "12@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000013",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "13@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000014",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "14@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000015",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "15@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000016",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "16@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000017",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "17@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000018",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "18@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000019",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "19@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000020",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "20@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000021",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "21@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad",
+    "d": "000000022",
+    "fn": "prueba",
+    "sn": "prueba",
+    "b": "2005-01-28",
+    "e": "22@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000023","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "23@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000024","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "24@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000025","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "25@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000026","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "26@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000027","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "27@us.es"
+}
+
+
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000028","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "28@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000029","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "29@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000030","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "30@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000031","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "31@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000032","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "32@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000033","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "33@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000034","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "34@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000035","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "35@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000036","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "36@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000037","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "37@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000038","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "38@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000039","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "39@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000040","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "40@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "0000000041","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "41@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000042","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "42@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000043","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "43@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000044","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "44@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000045","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "45@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000046","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "46@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000047","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "47@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000048","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "48@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000049","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "49@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000050","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "50@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000051","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "51@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000052","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "52@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000053","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "53@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000054","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "54@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000055","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "55@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000056","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "56@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000057","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "57@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000058","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "58@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000059","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "59@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000060","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "60@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000061","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "61@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000062","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "62@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000063","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "63@us.es"
+}
+
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000064","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "64@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000065","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "65@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000066","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "66@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000067","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "67@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000068","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "68@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000069","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "69@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000070","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "70@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000071","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "71@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000072","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "72@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000073","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "73@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000074","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "74@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000075","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "75@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000076","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "76@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000077","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "77@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000078","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "78@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000079","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "79@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000080","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "80@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000081","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "81@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000082","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "82@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000083","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "83@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000084","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "84@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000085","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "85@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000086","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "86@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000087","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "87@us.es"
+}
+
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000088","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "88@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000089","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "89@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000090","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "90@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000091","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "91@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000092","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "92@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000093","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "93@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000094","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "94@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000095","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "95@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000096","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "96@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000097","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "97@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000098","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "98@us.es"
+}
+###############################################
+POST {{BASE}}/students
+Content-Type: application/json
+
+{
+    "a": "Selectividad","d": "000000099","fn": "prueba","sn": "prueba","b": "2005-01-28","e": "99@us.es"
+}
+v
+
+
